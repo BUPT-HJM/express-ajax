@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="./javascripts/jquery.min.js"></script>
+</head>
+<body>
+	<div class="join-form">
+                <form name="form" action="submit" method="get">
+					<div class="form">
+						<div class="form-item">
+							<input type="text" name="name" required="required" placeholder="姓名" autocomplete="off">
+						</div>
+						<div class="form-item">
+							<input type="text" name="institute" required="required" placeholder="学院" autocomplete="off">
+						</div>
+						<div class="form-item">
+							<input type="text" name="department" required="required" placeholder="意向部门" autocomplete="off">
+						</div>
+						<div class="form-item">
+							<input type="text" name="contact" required="required" placeholder="联系方式" autocomplete="off">
+						</div>
+						<textarea placeholder="请在此处介绍自己..." name="introduction">
+						</textarea>
+						<div class="button-panel">
+							<input type="submit" class="button" title="Sign In" value="报名">
+						</div>
+					</div>
+				</form>
+				<br>
+				<button class="ajax">ajax</button>
+				<div id="ajax"></div>
+		</div>
+</body>
+<script src="./javascripts/ajax.js"></script>
+</html>
